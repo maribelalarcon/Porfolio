@@ -4,9 +4,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#0f172a",
+        primary: "#f6eafd",
+        customColor: {
+          default: "#e1bcf6",
+          light: "#cf90f0",
+          dark: "#64277c",
+        },
       },
-    }, //colores-fuente
+    },
   },
   plugins: [],
 };
